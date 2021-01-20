@@ -1,0 +1,106 @@
+.root {
+    -fx-font: 10pt "Arial";
+    -fx-background-color: #ffffff;
+}
+
+.menu-bar {
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #d0d0f0);
+}
+
+.menu:hover {
+    -fx-background-color: linear-gradient(to top, #ffffff, #d0d0f0);
+}
+
+.menu:showing {
+    -fx-background-color: linear-gradient(to top, #ffffff, #d0f0d0);
+}
+
+.menu:hover .label, .menu:showing .label {
+    -fx-text-fill: black;
+}
+
+.menu-item {
+    -fx-background-color: white;
+}
+
+.menu-item:hover {
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #d0d0f0);
+}
+
+.menu-item .label {
+    -fx-text-fill: black;
+}
+
+.message-label {
+    -fx-text-fill: #ff0000;
+}
+
+.button {
+    -fx-font: bold 10pt "Arial";
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #d0d0d0);
+}
+
+.button:default {
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #d0d0f0);
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #d0f0d0);
+}
+
+.selection-grid {
+    -fx-background-color: black, linear-gradient(to bottom, #6969ff, #ffffff);
+    -fx-background-insets: 0, 0 2 0 0;
+}
+
+.title-text {
+    -fx-font: bold 20pt "Calibri";
+    -fx-text-fill: #6969ff;
+    -fx-effect: innershadow( one-pass-box , black , 8 , 0.0 , 2 , 1 );
+}
+
+.white-bg-node {
+    -fx-background-color: white;
+}
+
+#reviewGrid, #quizGrid {
+    -fx-background-color: white;
+}
+
+.title-text {
+    -fx-font: bold 20pt "Calibri";
+    -fx-text-fill: #6969ff;
+    -fx-effect: innershadow( one-pass-box , black , 8 , 0.0 , 2 , 1 );
+}
+
+.app-input-field {
+    -fx-font-family: "Courier New";
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 1 );
+}
+
+.default-color0.chart-pie {
+    -fx-pie-color: #888888;
+}
+
+.default-color1.chart-pie {
+    -fx-pie-color: #55ee55;
+}
+
+.default-color2.chart-pie {
+    -fx-pie-color: #ee5555;
+}
+
+.text-field:disabled, .radio-button:disabled, .label:disabled {
+    -fx-opacity: 0.8;
+}
+
+.question-correct {
+    -fx-font-weight: bold;
+    -fx-text-fill: #008800;
+}
+
+.question-incorrect {
+    -fx-font-weight: bold;
+    -fx-text-fill: #ff0000;
+}

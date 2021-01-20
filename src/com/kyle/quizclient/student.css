@@ -1,0 +1,63 @@
+.root {
+    -fx-font: 15pt "Arial";
+    -fx-background-color: #ffffff;
+}
+
+.button {
+    -fx-font: bold italic 15pt "Arial";
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #d0d0d0);
+}
+
+.button:default {
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #d0d0f0);
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #d0f0d0);
+}
+
+.message-text {
+    -fx-font-size: 10pt;
+    -fx-text-fill: #ff0000;
+}
+
+#quizSelection {
+    -fx-background-color: linear-gradient(to bottom, #6969ff, #ffffff);
+}
+
+#quizGrid {
+    -fx-background-color: linear-gradient(to right, #6969ff, #ffffff),
+        linear-gradient(to left, #6969ff, #ffffff),
+         #ffffff;
+    -fx-background-insets: 0 150 0 0, 0 0 0 150, 0 150 0 150;
+}
+
+.title-text {
+    -fx-font: bold 30pt "Calibri";
+    -fx-text-fill: #6969ff;
+    -fx-effect: innershadow( one-pass-box , black , 8 , 0.0 , 2 , 1 );
+}
+
+#instructionsText {
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 1 );
+    -fx-background-color: #ffffff;
+    -fx-font-size: 10pt;
+    -fx-border-radius: 2;
+    -fx-border-color: #000000;
+    -fx-padding: 10;
+}
+
+.app-input-field {
+    -fx-font-family: "Courier New";
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 1 );
+}
+
+.radio-button:selected {
+    -fx-font-weight: bold;
+}
+
+#quizOverlayBackground {
+    -fx-background-color: #ffff00;
+    -fx-opacity: 0.5;
+}

@@ -1,0 +1,34 @@
+!Quiz file
+Title: Testing Quiz #2
+
+Questions:
+
+    Q.1
+        Format: blank_box
+        Question: What is your name?
+        Required!
+    Q.2
+        Format: multiple_choice
+        Question: What is 1 + 1?
+        Options:
+            > A. 11
+            > B. 2
+            > C. 1
+        Correct: B.
+    Q.3
+        Format: multiple_choice
+        Question: What is 2 x 3?
+        Options:
+            > A. 6
+            > B. 23
+            > C. 5
+        Correct: A.
+    Q.3
+        Format: multiple_choice
+        Question: What is 5 - 1?
+        Options:
+            > A. 5
+            > B. 15
+            > C. 1
+            > D. 4
+        Correct: D.
