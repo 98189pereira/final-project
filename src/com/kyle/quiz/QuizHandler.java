@@ -20,6 +20,12 @@ import java.util.Map;
     Author:     Kyle
     Class:      QuizHandler
     Desc:       implementation of QuizFormat for demo quiz
+    Methods:
+                submitQuiz()    -   called when submitting the quiz
+                checkAnswers()  -   marks a student's response against a key
+                addQuestions()  -   add quiz questions to display grid pane
+                scrubQuiz()     -   removes indicated correct answers from quiz json
+                loadQuestions() -   load quiz objects from json
  */
 public class QuizHandler implements QuizFormat {
     //  constants

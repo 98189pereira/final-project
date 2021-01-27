@@ -10,6 +10,8 @@ import java.util.Stack;
     Class:      MarkupParser
     Desc:       reusable class to parse a markup file into
                 JSON, following a set of rules
+    Methods:
+                parseFile() -   parse a text file according to a set of given rules
  */
 public class MarkupParser {
 

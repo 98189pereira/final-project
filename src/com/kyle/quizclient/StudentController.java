@@ -22,6 +22,9 @@ import java.util.TimerTask;
     Author:     Kyle
     Class:      StudentController
     Desc:       abstract class defining the student application fxml controller
+    Methods:
+                sendQuizJson()  -   write student response to a location
+                fetchQuizJson() -   get quiz json from somewhere
  */
 public abstract class StudentController implements SubmittableQuiz {
     //  Methods that must be implemented

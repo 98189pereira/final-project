@@ -20,6 +20,9 @@ import java.util.ArrayList;
     Author:     Kyle
     Class:      TeacherController
     Desc:       abstract class defining the teacher application fxml controller
+    Methods:
+                pushQuizJson()      -   write quiz json to a location
+                getAnswersJson()    -   get student response from somewhere
  */
 public abstract class TeacherController implements SubmittableQuiz {
     //  Methods that must be implemented
